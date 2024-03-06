@@ -7,16 +7,15 @@ assignees: ''
 
 ---
 
-**As a** new user
-**I need** a registration page
-**So that** I can create an account and participate in giving away or acquiring household items.
+**As a** [role]
+**I need** [function]
+**So that** [benefit]
 
 ### Details and Assumptions
-* Users should be able to register using their email address, username, and password.
-* The system should verify that the email address is not already in use.
+    * [document what you know]
 
 ### Acceptance Criteria
-```gherkin
-Given the user is on the registration page
-When the user enters a unique email address, username, and password and submits the form
-Then the user's account is created, and they are redirected to the login page.
+    gherkin
+    Given [some context]
+    When [certain action is taken]
+    Then [the outcome of action is observed]
