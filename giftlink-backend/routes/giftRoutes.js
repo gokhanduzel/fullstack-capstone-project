@@ -1,3 +1,11 @@
+const express = require('express');
+const app = express();
+const bcryptjs = require('bcryptjs');
+const jwt = require('jsonwebtoken');
+const { body, validationResult } = require('express-validator');
+const router = express.Router();
+const dotenv = require('dotenv');
+const pino = require('pino');  // Import Pino logger
 const connectToDatabase = require("../models/db");
 
 router.get('/', async (req, res) => {
